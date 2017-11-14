@@ -1,9 +1,22 @@
 package com.dull.CDSpace.view;
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
+
+import org.apache.commons.io.FileUtils;
+
+import com.dull.CDSpace.model.Header;
+import com.dull.CDSpace.model.HttpClientRequest;
+import com.dull.CDSpace.model.NodeItem;
+import com.dull.CDSpace.utils.httpClient.HttpClientResponse;
+import com.dull.CDSpace.utils.httpClient.HttpClientUtil;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -14,10 +27,10 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.control.Tab;
 import javafx.scene.control.TabPane;
 import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableColumn.CellEditEvent;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
-import javafx.scene.control.TableColumn.CellEditEvent;
 import javafx.scene.control.TreeItem;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.control.cell.TextFieldTableCell;
@@ -25,12 +38,6 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
-
-import com.dull.CDSpace.model.Header;
-import com.dull.CDSpace.model.HttpClientRequest;
-import com.dull.CDSpace.model.NodeItem;
-import com.dull.CDSpace.utils.httpClient.HttpClientResponse;
-import com.dull.CDSpace.utils.httpClient.HttpClientUtil;
 
 /*
  * Author 杜亮亮
@@ -52,9 +59,79 @@ public class HttpClientEditorView {
 	private TextArea taOfResponseHeader;
 	
 	private TreeItem<NodeItem> treeItem;
+
+	private Thread httpThread;
+	private Runnable httpRunnable;
 	
+	private Button sendButton;
 	public HttpClientEditorView() {
-		
+		httpRunnable = new Runnable() {
+			public void run() {
+				try {
+					taOfResponseBody.setText(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date())+"\t start it.\n");
+					HttpClientResponse response = new HttpClientResponse();
+					String methodOfHTTP = methodComboBox.getSelectionModel().getSelectedItem().toString();
+					String urlText = taOfURL.getText().replaceAll("\\s","");
+					String bodyText = taOfRequestBody.getText().replaceAll("\\s","");
+					if (!urlText.startsWith("http")) {
+						urlText = getParentUrl() + urlText;
+					}
+					taOfResponseBody.appendText(methodOfHTTP+" URL:"+urlText +"\n");
+					if (methodOfHTTP.equals("GET")){
+			    		if (bodyText!=null) {
+							if (urlText.contains("?")) {
+								urlText += "&" + bodyText;
+							}else{
+								urlText += "?" + bodyText;
+							}
+						}
+						response = HttpClientUtil.doGet(urlText, exchangeHeaders(data));
+					} else if (methodOfHTTP.equals("POST")) {
+						response = HttpClientUtil.doPost(urlText, exchangeHeaders(data), bodyText);
+					} else if (methodOfHTTP.equals("DELETE")) {
+						response = HttpClientUtil.doDelete(urlText, exchangeHeaders(data));
+					} else if (methodOfHTTP.equals("PUT")) {
+						response = HttpClientUtil.doPut(urlText, exchangeHeaders(data), bodyText);
+					}
+					if (response.getStateCode() != null) {
+						taOfResponseBody.appendText(response.getStateCode() + "\n" + response.getResponse()+"\n");
+						taOfResponseHeader.setText(response.getHeaders());
+					} else {
+						taOfResponseBody.appendText("Send request fail. Please check the content of request or the state of http server!");
+						taOfResponseHeader.setText("");
+					}
+					if (sendButton!=null) {
+						sendButton.setDisable(false);
+					}
+				} catch (Exception e) {
+					taOfResponseBody.appendText("Tread stop it;");
+				}finally {
+					httpThread = null;
+					httpThread = new Thread(httpRunnable);
+				}
+			}
+		};
+		httpThread = new Thread(httpRunnable);
+	}
+	
+	private String getParentUrl(){
+		StringBuffer sb = new StringBuffer();
+		String parentPath = treeItem.getValue().getFile().getPath();
+		File parentFile = new File(parentPath);
+		while(!parentFile.getName().equals("project")){
+			File urlFile = new File(parentFile, "url");
+			if (urlFile.isFile()) {
+				try {
+					String url = FileUtils.readFileToString(urlFile, StandardCharsets.UTF_8);
+					if (url!=null&&!url.isEmpty()) {
+						sb.insert(0, url);
+					}
+				} catch (IOException e) {
+				}
+			}
+			parentFile = parentFile.getParentFile();
+		}
+		return sb.toString();
 	}
 	
 	public VBox initCenterBorder() {
@@ -107,24 +184,37 @@ public class HttpClientEditorView {
             "DELETE"
         );
 		methodComboBox.setValue("GET");
-		methodComboBox.setMinWidth(180);
+		methodComboBox.setMinWidth(100);
         grid.add(methodComboBox, 0, 0);
         
         //send button
-        Button sendButton = new Button("Send");
+        sendButton = new Button("Send");
         sendButton.setOnAction((ActionEvent e) -> {
         	sendButton();
         });
-        sendButton.setMinWidth(190);
+        sendButton.setMinWidth(100);
         grid.add(sendButton, 1, 0);
         //save button
         Button saveButton = new Button("Save");
         saveButton.setOnAction((ActionEvent e) -> {
         	saveButton();
         });
-        saveButton.setMinWidth(190);
+        saveButton.setMinWidth(100);
         grid.add(saveButton, 2, 0);
-        
+        //stop button
+        Button stopButton = new Button("Stop");
+        stopButton.setOnAction((ActionEvent e) -> {
+        	stopButton();
+        });
+        stopButton.setMinWidth(100);
+        grid.add(stopButton, 3, 0);
+        //clear Cookie
+        Button clearButton = new Button("ClearCookie");
+        clearButton.setOnAction((ActionEvent e) -> {
+        	clearButton();
+        });
+        clearButton.setMinWidth(100);
+        grid.add(clearButton, 4, 0);
         return grid;
 	}
 	
@@ -303,24 +393,22 @@ public class HttpClientEditorView {
 	}
 	
 	public void sendButton() {
-		HttpClientResponse response = new HttpClientResponse();
-    	String methodOfHTTP = methodComboBox.getSelectionModel().getSelectedItem().toString();
-    	if (methodOfHTTP.equals("GET")){
-    		response = HttpClientUtil.doGet(taOfURL.getText(), exchangeHeaders(data));
-    	} else if (methodOfHTTP.equals("POST")) {
-    		response = HttpClientUtil.doPost(taOfURL.getText(), exchangeHeaders(data), taOfRequestBody.getText());
-    	} else if (methodOfHTTP.equals("DELETE")) {
-    		response = HttpClientUtil.doDelete(taOfURL.getText(), exchangeHeaders(data));
-    	} else if (methodOfHTTP.equals("PUT")) {
-    		response = HttpClientUtil.doPut(taOfURL.getText(), exchangeHeaders(data), taOfRequestBody.getText());
-    	}
-    	if (response.getStateCode() != null) {
-    		taOfResponseBody.setText(response.getStateCode() + "\n" + response.getResponse());
-    		taOfResponseHeader.setText(response.getHeaders());
-    	} else {
-    		taOfResponseBody.setText("Send request fail. Please check the content of request or the state of http server!");
-    		taOfResponseHeader.setText("");
-    	}
+		if (sendButton!=null) {
+			sendButton.setDisable(true);
+		}
+		httpThread.start();
+	}
+	public void stopButton(){
+		if (sendButton!=null) {	
+			sendButton.setDisable(false);
+		}
+		httpThread.interrupt();
+		httpThread = null;
+		httpThread = new Thread(httpRunnable);
+	}
+	
+	public void clearButton(){
+		HttpClientUtil.cookies.clear();
 	}
 	
 	public ObservableList<Header> getData() {

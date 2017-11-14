@@ -2,8 +2,8 @@ package com.dull.CDSpace.model;
 
 import java.util.HashMap;
 
+import com.alibaba.fastjson.JSON;
 import com.dull.CDSpace.utils.FileUtil;
-import com.google.gson.Gson;
 
 /*
  * Author 杜亮亮
@@ -24,8 +24,7 @@ public class HttpClientRequest {
 	
 	public HttpClientRequest(String filePath) {
 		String jsonString = FileUtil.readFile(filePath);
-		Gson gson = new Gson();
-		HttpClientRequest httpClientRequest = gson.fromJson(jsonString, HttpClientRequest.class);
+		HttpClientRequest httpClientRequest = JSON.parseObject(jsonString, HttpClientRequest.class);
 		this.method = httpClientRequest.method;
 		this.url = httpClientRequest.url;
 		this.body = httpClientRequest.body;
@@ -33,8 +32,7 @@ public class HttpClientRequest {
 	}
 	
 	public static void requestToFile(HttpClientRequest httpClientRequest, String filePath){
-		Gson gson = new Gson();
-		String jsonString = gson.toJson(httpClientRequest);
+		String jsonString = JSON.toJSONString(httpClientRequest);
 		FileUtil.createFileWithString(jsonString, filePath);
 	}
 

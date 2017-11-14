@@ -1,7 +1,7 @@
 package com.dull.CDSpace.model;
 
+import com.alibaba.fastjson.JSON;
 import com.dull.CDSpace.utils.FileUtil;
-import com.google.gson.Gson;
 
 /*
  * Author 杜亮亮
@@ -16,10 +16,11 @@ public class HttpServerResponse {
 	
 	private HttpServerResponseContext[] contexts;
 	
-	public HttpServerResponse() {
-		
-	}
 	
+	public HttpServerResponse() {
+		super();
+	}
+
 	public HttpServerResponse(String port, String serverType, String protocolType, HttpServerResponseContext[] contexts) {
 		this.port = port;
 		this.serverType = serverType;
@@ -29,8 +30,7 @@ public class HttpServerResponse {
 	
 	public HttpServerResponse(String filePath) {
 		String jsonString = FileUtil.readFile(filePath);
-		Gson gson = new Gson();
-		HttpServerResponse httpServerResponse = gson.fromJson(jsonString, HttpServerResponse.class);
+		HttpServerResponse httpServerResponse = JSON.parseObject(jsonString, HttpServerResponse.class);
 		this.port = httpServerResponse.port;
 		this.serverType = httpServerResponse.serverType;
 		this.protocolType = httpServerResponse.protocolType;
@@ -38,8 +38,7 @@ public class HttpServerResponse {
 	}
 	
 	public static void requestToFile(HttpServerResponse httpServerResponse, String filePath){
-		Gson gson = new Gson();
-		String jsonString = gson.toJson(httpServerResponse);
+		String jsonString = JSON.toJSONString(httpServerResponse);
 		FileUtil.createFileWithString(jsonString, filePath);
 	}
 

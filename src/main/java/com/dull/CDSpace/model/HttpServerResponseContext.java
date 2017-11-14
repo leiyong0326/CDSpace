@@ -17,6 +17,10 @@ public class HttpServerResponseContext {
 	
 	private HashMap<String, String> headers;
 	
+	public HttpServerResponseContext() {
+		super();
+	}
+
 	public HttpServerResponseContext(String contextName, String url, String responseCode, String responseBody, HashMap<String, String> headers) {
 		this.contextName = contextName;
 		this.url = url;
