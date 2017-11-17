@@ -1,523 +1,271 @@
-2017-11-14 10:05:13  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 10:05:13  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 10:05:15  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 10:05:16  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test.server
-2017-11-14 10:05:16  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 10:05:16  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test.server
-2017-11-14 10:05:16  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 10:05:19  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test120134.client
-2017-11-14 10:05:19  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 10:16:47  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 10:16:47  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 10:16:49  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 10:16:50  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test120134.client
-2017-11-14 10:16:50  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 10:16:50  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test1.client
-2017-11-14 10:16:50  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 10:16:51  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test.server
-2017-11-14 10:16:51  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 10:16:52  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test1.client
-2017-11-14 10:16:52  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 10:16:53  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test.server
-2017-11-14 10:16:53  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 10:16:55  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
-2017-11-14 10:16:55  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 10:17:01  [ DEBUG ]  [ method:com.dull.CDSpace.utils.httpClient.HttpClientUtil.post(HttpClientUtil.java:219) ]  http://lei.aetoscg.com/user/app-login.action?ln=0
-2017-11-14 10:17:01  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:122) ]  CookieSpec selected: default
-2017-11-14 10:17:01  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:76) ]  Auth cache not set in the context
-2017-11-14 10:17:01  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(PoolingHttpClientConnectionManager.java:249) ]  Connection request: [route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2017-11-14 10:17:01  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:282) ]  Connection leased: [id: 0][route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
-2017-11-14 10:17:01  [ DEBUG ]  [ method:org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:234) ]  Opening connection {}->http://lei.aetoscg.com:80
-2017-11-14 10:17:01  [ DEBUG ]  [ method:org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:131) ]  Connecting to lei.aetoscg.com/127.0.0.1:80
-2017-11-14 10:17:02  [ DEBUG ]  [ method:org.apache.http.impl.conn.LoggingManagedHttpClientConnection.shutdown(LoggingManagedHttpClientConnection.java:98) ]  http-outgoing-0: Shutdown connection
-2017-11-14 10:17:02  [ DEBUG ]  [ method:org.apache.http.impl.execchain.ConnectionHolder.abortConnection(ConnectionHolder.java:128) ]  Connection discarded
-2017-11-14 10:17:02  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:320) ]  Connection released: [id: 0][route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2017-11-14 10:17:02  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:388) ]  Connection manager is shutting down
-2017-11-14 10:17:02  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:394) ]  Connection manager shut down
-2017-11-14 10:17:35  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 10:17:35  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 10:17:36  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 10:17:36  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 10:17:36  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 10:17:37  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 10:17:37  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
-2017-11-14 10:17:37  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 10:18:39  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 10:18:39  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 10:18:41  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 10:18:41  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 10:18:41  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 10:18:41  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 10:18:41  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
-2017-11-14 10:18:41  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 10:19:07  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 10:19:07  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 10:19:08  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 10:19:08  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 10:19:08  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 10:19:08  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 10:19:09  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
-2017-11-14 10:19:09  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 10:19:15  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 10:19:15  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 10:19:15  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 10:25:49  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 10:25:49  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 10:25:50  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 10:25:51  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 10:26:04  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 10:26:13  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 10:26:17  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 10:26:21  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 10:26:27  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 10:26:46  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 10:29:50  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 10:29:50  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 10:29:52  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 10:29:52  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 10:29:52  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 10:29:52  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:03:27  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:03:27  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:03:31  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:03:32  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
-2017-11-14 11:03:32  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:03:36  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:03:36  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 11:03:36  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:03:40  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
-2017-11-14 11:03:40  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:03:43  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:03:43  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 11:03:43  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:03:51  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
-2017-11-14 11:03:51  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:03:52  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:03:52  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 11:03:52  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:03:52  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
-2017-11-14 11:03:52  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:03:53  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:03:53  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 11:03:53  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:06:42  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:06:42  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:06:44  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:06:44  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 11:06:44  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:06:44  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:06:45  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
-2017-11-14 11:06:46  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:06:46  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:06:46  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 11:06:46  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:06:47  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
-2017-11-14 11:06:47  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:06:48  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:06:48  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 11:06:48  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:06:52  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
-2017-11-14 11:06:52  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:06:52  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:06:52  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 11:06:52  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:06:53  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
-2017-11-14 11:06:53  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:06:54  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:06:54  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 11:06:54  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:06:56  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
-2017-11-14 11:06:56  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:07:40  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:07:40  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:07:42  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:07:42  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 11:07:42  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:07:42  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:16:01  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:16:01  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:16:02  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:16:02  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 11:16:03  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:16:41  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:16:41  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:16:43  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:16:43  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 11:16:43  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:16:43  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:16:46  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
-2017-11-14 11:16:46  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:16:47  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test.server
-2017-11-14 11:16:48  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test1.client
-2017-11-14 11:16:48  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:16:58  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
-2017-11-14 11:16:58  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:17:00  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test.server
-2017-11-14 11:17:35  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test.server
-2017-11-14 11:17:37  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test1.client
-2017-11-14 11:17:37  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:17:38  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test.server
-2017-11-14 11:17:41  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
-2017-11-14 11:17:41  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:17:43  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test.server
-2017-11-14 11:17:53  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:17:53  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:17:55  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:17:56  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test.server
-2017-11-14 11:19:10  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:19:10  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:19:22  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test.server
-2017-11-14 11:24:29  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:24:29  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:24:30  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:24:31  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 11:24:31  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:24:31  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:24:32  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test.server
-2017-11-14 11:24:32  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:24:34  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test1.client
-2017-11-14 11:24:34  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:24:35  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test.server
-2017-11-14 11:24:35  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:24:36  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test1.client
-2017-11-14 11:24:36  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:24:37  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
-2017-11-14 11:24:37  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:24:42  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test.server
-2017-11-14 11:24:42  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:24:43  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
-2017-11-14 11:24:43  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:24:45  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test.server
-2017-11-14 11:24:45  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:24:47  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
-2017-11-14 11:24:47  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:29:29  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:29:29  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:29:30  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:29:31  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test.server
-2017-11-14 11:29:31  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:29:33  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
-2017-11-14 11:29:33  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:29:36  [ DEBUG ]  [ method:com.dull.CDSpace.utils.httpClient.HttpClientUtil.post(HttpClientUtil.java:219) ]  http://lei.aetoscg.com/user/app-login.action?ln=0
-2017-11-14 11:29:36  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:122) ]  CookieSpec selected: default
-2017-11-14 11:29:36  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:76) ]  Auth cache not set in the context
-2017-11-14 11:29:36  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(PoolingHttpClientConnectionManager.java:249) ]  Connection request: [route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2017-11-14 11:29:36  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:282) ]  Connection leased: [id: 0][route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
-2017-11-14 11:29:36  [ DEBUG ]  [ method:org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:234) ]  Opening connection {}->http://lei.aetoscg.com:80
-2017-11-14 11:29:36  [ DEBUG ]  [ method:org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:131) ]  Connecting to lei.aetoscg.com/127.0.0.1:80
-2017-11-14 11:29:37  [ DEBUG ]  [ method:org.apache.http.impl.conn.LoggingManagedHttpClientConnection.shutdown(LoggingManagedHttpClientConnection.java:98) ]  http-outgoing-0: Shutdown connection
-2017-11-14 11:29:37  [ DEBUG ]  [ method:org.apache.http.impl.execchain.ConnectionHolder.abortConnection(ConnectionHolder.java:128) ]  Connection discarded
-2017-11-14 11:29:37  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:320) ]  Connection released: [id: 0][route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2017-11-14 11:29:37  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:388) ]  Connection manager is shutting down
-2017-11-14 11:29:37  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:394) ]  Connection manager shut down
-2017-11-14 11:38:34  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:38:34  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:38:35  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:38:35  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 11:38:35  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:38:36  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:38:37  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
-2017-11-14 11:38:37  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:39:14  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:39:14  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:39:20  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:39:20  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:39:21  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:39:21  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 11:39:21  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:39:21  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:39:23  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test.server
-2017-11-14 11:39:23  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:39:23  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
-2017-11-14 11:39:23  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:39:25  [ DEBUG ]  [ method:com.dull.CDSpace.utils.httpClient.HttpClientUtil.post(HttpClientUtil.java:219) ]  user/app-login.action?ln=0
-2017-11-14 11:39:25  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:388) ]  Connection manager is shutting down
-2017-11-14 11:39:25  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:394) ]  Connection manager shut down
-2017-11-14 11:39:35  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:39:35  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:39:37  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:39:37  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 11:39:37  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:39:38  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:39:38  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
-2017-11-14 11:39:39  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:39:53  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:39:53  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:39:55  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:39:55  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 11:39:55  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:39:55  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:39:56  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
-2017-11-14 11:39:56  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:40:23  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:40:23  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:40:24  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:40:24  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 11:40:24  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:40:24  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:40:25  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test.server
-2017-11-14 11:40:31  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:40:32  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
-2017-11-14 11:40:32  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:41:35  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:41:35  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 11:41:35  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:41:36  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
-2017-11-14 11:41:36  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:45:30  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:45:30  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:45:32  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:45:32  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 11:45:32  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:45:32  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:45:34  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
-2017-11-14 11:45:34  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:45:35  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:45:35  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 11:45:35  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:45:40  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:45:40  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 11:45:40  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:45:45  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
-2017-11-14 11:45:45  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:45:48  [ DEBUG ]  [ method:com.dull.CDSpace.utils.httpClient.HttpClientUtil.post(HttpClientUtil.java:219) ]  user/app-login.action?ln=0
-2017-11-14 11:45:48  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:388) ]  Connection manager is shutting down
-2017-11-14 11:45:48  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:394) ]  Connection manager shut down
-2017-11-14 11:46:01  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:46:01  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 11:46:01  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:47:15  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:47:15  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:47:17  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:47:17  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 11:47:17  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:47:17  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:48:28  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
-2017-11-14 11:48:29  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:48:29  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:48:29  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 11:48:29  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:48:30  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
-2017-11-14 11:48:30  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:48:31  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:48:31  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 11:48:31  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:49:42  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:49:45  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject1\New HttpClient.client
-2017-11-14 11:49:45  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:49:45  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:49:45  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject1
-2017-11-14 11:49:45  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:49:49  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:49:49  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:49:49  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:49:51  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:49:51  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject1
-2017-11-14 11:49:51  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:49:51  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:49:51  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject1
-2017-11-14 11:49:51  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:49:52  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:49:52  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:50:27  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:50:27  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject1
-2017-11-14 11:50:27  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:50:28  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:50:28  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:50:29  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:50:29  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject1
-2017-11-14 11:50:29  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:50:32  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:51:32  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:51:32  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:51:33  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:51:33  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
-2017-11-14 11:51:33  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:51:34  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
-2017-11-14 11:51:35  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:51:44  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject1\New HttpClient.client
-2017-11-14 11:51:44  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:51:46  [ DEBUG ]  [ method:com.dull.CDSpace.utils.httpClient.HttpClientUtil.post(HttpClientUtil.java:219) ]  http://lei.aetoscg.com/user/app-login.action?ln=0
-2017-11-14 11:51:46  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:122) ]  CookieSpec selected: default
-2017-11-14 11:51:46  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:76) ]  Auth cache not set in the context
-2017-11-14 11:51:46  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(PoolingHttpClientConnectionManager.java:249) ]  Connection request: [route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2017-11-14 11:51:46  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:282) ]  Connection leased: [id: 0][route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
-2017-11-14 11:51:46  [ DEBUG ]  [ method:org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:234) ]  Opening connection {}->http://lei.aetoscg.com:80
-2017-11-14 11:51:46  [ DEBUG ]  [ method:org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:131) ]  Connecting to lei.aetoscg.com/127.0.0.1:80
-2017-11-14 11:51:47  [ DEBUG ]  [ method:org.apache.http.impl.conn.LoggingManagedHttpClientConnection.shutdown(LoggingManagedHttpClientConnection.java:98) ]  http-outgoing-0: Shutdown connection
-2017-11-14 11:51:47  [ DEBUG ]  [ method:org.apache.http.impl.execchain.ConnectionHolder.abortConnection(ConnectionHolder.java:128) ]  Connection discarded
-2017-11-14 11:51:47  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:320) ]  Connection released: [id: 0][route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2017-11-14 11:51:47  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:388) ]  Connection manager is shutting down
-2017-11-14 11:51:47  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:394) ]  Connection manager shut down
-2017-11-14 11:52:07  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:52:07  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:52:08  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:52:08  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject1
-2017-11-14 11:52:08  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:52:09  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:52:10  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject1\New HttpClient.client
-2017-11-14 11:52:10  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:54:34  [ DEBUG ]  [ method:com.dull.CDSpace.utils.httpClient.HttpClientUtil.post(HttpClientUtil.java:219) ]  http://lei.aetoscg.com/user/app-login.action?ln=0
-2017-11-14 11:54:34  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:122) ]  CookieSpec selected: default
-2017-11-14 11:54:34  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:76) ]  Auth cache not set in the context
-2017-11-14 11:54:34  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(PoolingHttpClientConnectionManager.java:249) ]  Connection request: [route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2017-11-14 11:54:34  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:282) ]  Connection leased: [id: 0][route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
-2017-11-14 11:54:34  [ DEBUG ]  [ method:org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:234) ]  Opening connection {}->http://lei.aetoscg.com:80
-2017-11-14 11:54:34  [ DEBUG ]  [ method:org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:131) ]  Connecting to lei.aetoscg.com/127.0.0.1:80
-2017-11-14 11:54:35  [ DEBUG ]  [ method:org.apache.http.impl.conn.LoggingManagedHttpClientConnection.shutdown(LoggingManagedHttpClientConnection.java:98) ]  http-outgoing-0: Shutdown connection
-2017-11-14 11:54:35  [ DEBUG ]  [ method:org.apache.http.impl.execchain.ConnectionHolder.abortConnection(ConnectionHolder.java:128) ]  Connection discarded
-2017-11-14 11:54:35  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:320) ]  Connection released: [id: 0][route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2017-11-14 11:54:35  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:388) ]  Connection manager is shutting down
-2017-11-14 11:54:35  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:394) ]  Connection manager shut down
-2017-11-14 11:55:24  [ DEBUG ]  [ method:com.dull.CDSpace.utils.httpClient.HttpClientUtil.post(HttpClientUtil.java:219) ]  http://lei.aetoscg.com/user/app-login.action?ln=0
-2017-11-14 11:55:24  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:122) ]  CookieSpec selected: default
-2017-11-14 11:55:24  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:76) ]  Auth cache not set in the context
-2017-11-14 11:55:24  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(PoolingHttpClientConnectionManager.java:249) ]  Connection request: [route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2017-11-14 11:55:24  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:282) ]  Connection leased: [id: 1][route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
-2017-11-14 11:55:24  [ DEBUG ]  [ method:org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:234) ]  Opening connection {}->http://lei.aetoscg.com:80
-2017-11-14 11:55:24  [ DEBUG ]  [ method:org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:131) ]  Connecting to lei.aetoscg.com/127.0.0.1:80
-2017-11-14 11:55:25  [ DEBUG ]  [ method:org.apache.http.impl.conn.LoggingManagedHttpClientConnection.shutdown(LoggingManagedHttpClientConnection.java:98) ]  http-outgoing-1: Shutdown connection
-2017-11-14 11:55:25  [ DEBUG ]  [ method:org.apache.http.impl.execchain.ConnectionHolder.abortConnection(ConnectionHolder.java:128) ]  Connection discarded
-2017-11-14 11:55:25  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:320) ]  Connection released: [id: 1][route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2017-11-14 11:55:25  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:388) ]  Connection manager is shutting down
-2017-11-14 11:55:25  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:394) ]  Connection manager shut down
-2017-11-14 11:56:10  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:56:10  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:56:12  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:56:12  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject1
-2017-11-14 11:56:12  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:56:12  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:56:13  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject1\New HttpClient.client
-2017-11-14 11:56:13  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:56:14  [ DEBUG ]  [ method:com.dull.CDSpace.utils.httpClient.HttpClientUtil.post(HttpClientUtil.java:219) ]  http://lei.aetoscg.com/user/app-login.action?ln=0
-2017-11-14 11:56:14  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:122) ]  CookieSpec selected: default
-2017-11-14 11:56:14  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:76) ]  Auth cache not set in the context
-2017-11-14 11:56:14  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(PoolingHttpClientConnectionManager.java:249) ]  Connection request: [route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2017-11-14 11:56:14  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:282) ]  Connection leased: [id: 0][route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
-2017-11-14 11:56:14  [ DEBUG ]  [ method:org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:234) ]  Opening connection {}->http://lei.aetoscg.com:80
-2017-11-14 11:56:14  [ DEBUG ]  [ method:org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:131) ]  Connecting to lei.aetoscg.com/127.0.0.1:80
-2017-11-14 11:56:15  [ DEBUG ]  [ method:org.apache.http.impl.conn.LoggingManagedHttpClientConnection.shutdown(LoggingManagedHttpClientConnection.java:98) ]  http-outgoing-0: Shutdown connection
-2017-11-14 11:56:15  [ DEBUG ]  [ method:org.apache.http.impl.execchain.ConnectionHolder.abortConnection(ConnectionHolder.java:128) ]  Connection discarded
-2017-11-14 11:56:15  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:320) ]  Connection released: [id: 0][route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2017-11-14 11:56:15  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:388) ]  Connection manager is shutting down
-2017-11-14 11:56:15  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:394) ]  Connection manager shut down
-2017-11-14 11:56:48  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:56:48  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:56:50  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:56:50  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject1
-2017-11-14 11:56:50  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:56:50  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:56:51  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject1\New HttpClient.client
-2017-11-14 11:56:51  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:56:53  [ DEBUG ]  [ method:com.dull.CDSpace.utils.httpClient.HttpClientUtil.post(HttpClientUtil.java:219) ]  http://lei.aetoscg.com/user/app-login.action?ln=0
-2017-11-14 11:56:53  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:122) ]  CookieSpec selected: default
-2017-11-14 11:56:53  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:76) ]  Auth cache not set in the context
-2017-11-14 11:56:53  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(PoolingHttpClientConnectionManager.java:249) ]  Connection request: [route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2017-11-14 11:56:53  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:282) ]  Connection leased: [id: 0][route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
-2017-11-14 11:56:53  [ DEBUG ]  [ method:org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:234) ]  Opening connection {}->http://lei.aetoscg.com:80
-2017-11-14 11:56:53  [ DEBUG ]  [ method:org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:131) ]  Connecting to lei.aetoscg.com/127.0.0.1:80
-2017-11-14 11:56:54  [ DEBUG ]  [ method:org.apache.http.impl.conn.LoggingManagedHttpClientConnection.shutdown(LoggingManagedHttpClientConnection.java:98) ]  http-outgoing-0: Shutdown connection
-2017-11-14 11:56:54  [ DEBUG ]  [ method:org.apache.http.impl.execchain.ConnectionHolder.abortConnection(ConnectionHolder.java:128) ]  Connection discarded
-2017-11-14 11:56:54  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:320) ]  Connection released: [id: 0][route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2017-11-14 11:56:54  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:388) ]  Connection manager is shutting down
-2017-11-14 11:56:54  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:394) ]  Connection manager shut down
-2017-11-14 11:56:56  [ DEBUG ]  [ method:com.dull.CDSpace.utils.httpClient.HttpClientUtil.post(HttpClientUtil.java:219) ]  http://lei.aetoscg.com/user/app-login.action?ln=0
-2017-11-14 11:56:56  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:122) ]  CookieSpec selected: default
-2017-11-14 11:56:56  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:76) ]  Auth cache not set in the context
-2017-11-14 11:56:56  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(PoolingHttpClientConnectionManager.java:249) ]  Connection request: [route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2017-11-14 11:56:56  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:282) ]  Connection leased: [id: 1][route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
-2017-11-14 11:56:56  [ DEBUG ]  [ method:org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:234) ]  Opening connection {}->http://lei.aetoscg.com:80
-2017-11-14 11:56:56  [ DEBUG ]  [ method:org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:131) ]  Connecting to lei.aetoscg.com/127.0.0.1:80
-2017-11-14 11:56:57  [ DEBUG ]  [ method:org.apache.http.impl.conn.LoggingManagedHttpClientConnection.shutdown(LoggingManagedHttpClientConnection.java:98) ]  http-outgoing-1: Shutdown connection
-2017-11-14 11:56:57  [ DEBUG ]  [ method:org.apache.http.impl.execchain.ConnectionHolder.abortConnection(ConnectionHolder.java:128) ]  Connection discarded
-2017-11-14 11:56:57  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:320) ]  Connection released: [id: 1][route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2017-11-14 11:56:57  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:388) ]  Connection manager is shutting down
-2017-11-14 11:56:57  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:394) ]  Connection manager shut down
-2017-11-14 11:57:02  [ DEBUG ]  [ method:com.dull.CDSpace.utils.httpClient.HttpClientUtil.post(HttpClientUtil.java:219) ]  http://lei.aetoscg.com/user/app-login.action?ln=0
-2017-11-14 11:57:02  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:122) ]  CookieSpec selected: default
-2017-11-14 11:57:02  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:76) ]  Auth cache not set in the context
-2017-11-14 11:57:02  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(PoolingHttpClientConnectionManager.java:249) ]  Connection request: [route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2017-11-14 11:57:02  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:282) ]  Connection leased: [id: 2][route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
-2017-11-14 11:57:02  [ DEBUG ]  [ method:org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:234) ]  Opening connection {}->http://lei.aetoscg.com:80
-2017-11-14 11:57:02  [ DEBUG ]  [ method:org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:131) ]  Connecting to lei.aetoscg.com/127.0.0.1:80
-2017-11-14 11:57:03  [ DEBUG ]  [ method:org.apache.http.impl.conn.LoggingManagedHttpClientConnection.shutdown(LoggingManagedHttpClientConnection.java:98) ]  http-outgoing-2: Shutdown connection
-2017-11-14 11:57:03  [ DEBUG ]  [ method:org.apache.http.impl.execchain.ConnectionHolder.abortConnection(ConnectionHolder.java:128) ]  Connection discarded
-2017-11-14 11:57:03  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:320) ]  Connection released: [id: 2][route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2017-11-14 11:57:03  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:388) ]  Connection manager is shutting down
-2017-11-14 11:57:03  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:394) ]  Connection manager shut down
-2017-11-14 11:57:06  [ DEBUG ]  [ method:com.dull.CDSpace.utils.httpClient.HttpClientUtil.post(HttpClientUtil.java:219) ]  http://lei.aetoscg.com/user/app-login.action?ln=0
-2017-11-14 11:57:06  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:122) ]  CookieSpec selected: default
-2017-11-14 11:57:06  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:76) ]  Auth cache not set in the context
-2017-11-14 11:57:06  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(PoolingHttpClientConnectionManager.java:249) ]  Connection request: [route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2017-11-14 11:57:06  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:282) ]  Connection leased: [id: 3][route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
-2017-11-14 11:57:06  [ DEBUG ]  [ method:org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:234) ]  Opening connection {}->http://lei.aetoscg.com:80
-2017-11-14 11:57:06  [ DEBUG ]  [ method:org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:131) ]  Connecting to lei.aetoscg.com/127.0.0.1:80
-2017-11-14 11:57:07  [ DEBUG ]  [ method:org.apache.http.impl.conn.LoggingManagedHttpClientConnection.shutdown(LoggingManagedHttpClientConnection.java:98) ]  http-outgoing-3: Shutdown connection
-2017-11-14 11:57:07  [ DEBUG ]  [ method:org.apache.http.impl.execchain.ConnectionHolder.abortConnection(ConnectionHolder.java:128) ]  Connection discarded
-2017-11-14 11:57:07  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:320) ]  Connection released: [id: 3][route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2017-11-14 11:57:07  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:388) ]  Connection manager is shutting down
-2017-11-14 11:57:07  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:394) ]  Connection manager shut down
-2017-11-14 11:57:29  [ DEBUG ]  [ method:com.dull.CDSpace.utils.httpClient.HttpClientUtil.post(HttpClientUtil.java:219) ]  http://lei.aetoscg.com/user/app-login.action?ln=0
-2017-11-14 11:57:29  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:122) ]  CookieSpec selected: default
-2017-11-14 11:57:29  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:76) ]  Auth cache not set in the context
-2017-11-14 11:57:29  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(PoolingHttpClientConnectionManager.java:249) ]  Connection request: [route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2017-11-14 11:57:29  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:282) ]  Connection leased: [id: 4][route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
-2017-11-14 11:57:29  [ DEBUG ]  [ method:org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:234) ]  Opening connection {}->http://lei.aetoscg.com:80
-2017-11-14 11:57:29  [ DEBUG ]  [ method:org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:131) ]  Connecting to lei.aetoscg.com/127.0.0.1:80
-2017-11-14 11:57:30  [ DEBUG ]  [ method:org.apache.http.impl.conn.LoggingManagedHttpClientConnection.shutdown(LoggingManagedHttpClientConnection.java:98) ]  http-outgoing-4: Shutdown connection
-2017-11-14 11:57:30  [ DEBUG ]  [ method:org.apache.http.impl.execchain.ConnectionHolder.abortConnection(ConnectionHolder.java:128) ]  Connection discarded
-2017-11-14 11:57:30  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:320) ]  Connection released: [id: 4][route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2017-11-14 11:57:30  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:388) ]  Connection manager is shutting down
-2017-11-14 11:57:30  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:394) ]  Connection manager shut down
-2017-11-14 11:58:18  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:58:18  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:58:20  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:58:20  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject1
-2017-11-14 11:58:20  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:58:20  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:58:20  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject1\New HttpClient.client
-2017-11-14 11:58:21  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:58:34  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:58:34  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:58:36  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:58:36  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject1
-2017-11-14 11:58:36  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:58:36  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
-2017-11-14 11:58:37  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject1\New HttpClient.client
-2017-11-14 11:58:37  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
-2017-11-14 11:58:38  [ DEBUG ]  [ method:com.dull.CDSpace.utils.httpClient.HttpClientUtil.post(HttpClientUtil.java:219) ]  http://lei.aetoscg.com/user/app-login.action?ln=0
-2017-11-14 11:58:38  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:122) ]  CookieSpec selected: default
-2017-11-14 11:58:38  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:76) ]  Auth cache not set in the context
-2017-11-14 11:58:38  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(PoolingHttpClientConnectionManager.java:249) ]  Connection request: [route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2017-11-14 11:58:38  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:282) ]  Connection leased: [id: 0][route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
-2017-11-14 11:58:38  [ DEBUG ]  [ method:org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:234) ]  Opening connection {}->http://lei.aetoscg.com:80
-2017-11-14 11:58:38  [ DEBUG ]  [ method:org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:131) ]  Connecting to lei.aetoscg.com/127.0.0.1:80
-2017-11-14 11:58:39  [ DEBUG ]  [ method:com.dull.CDSpace.utils.httpClient.HttpClientUtil.post(HttpClientUtil.java:219) ]  http://lei.aetoscg.com/user/app-login.action?ln=0
-2017-11-14 11:58:39  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:122) ]  CookieSpec selected: default
-2017-11-14 11:58:39  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:76) ]  Auth cache not set in the context
-2017-11-14 11:58:39  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(PoolingHttpClientConnectionManager.java:249) ]  Connection request: [route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2017-11-14 11:58:39  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:282) ]  Connection leased: [id: 1][route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
-2017-11-14 11:58:39  [ DEBUG ]  [ method:org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:234) ]  Opening connection {}->http://lei.aetoscg.com:80
-2017-11-14 11:58:39  [ DEBUG ]  [ method:org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:131) ]  Connecting to lei.aetoscg.com/127.0.0.1:80
-2017-11-14 11:58:39  [ DEBUG ]  [ method:org.apache.http.impl.conn.LoggingManagedHttpClientConnection.shutdown(LoggingManagedHttpClientConnection.java:98) ]  http-outgoing-0: Shutdown connection
-2017-11-14 11:58:39  [ DEBUG ]  [ method:org.apache.http.impl.execchain.ConnectionHolder.abortConnection(ConnectionHolder.java:128) ]  Connection discarded
-2017-11-14 11:58:39  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:320) ]  Connection released: [id: 0][route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2017-11-14 11:58:39  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:388) ]  Connection manager is shutting down
-2017-11-14 11:58:39  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:394) ]  Connection manager shut down
-2017-11-14 11:58:40  [ DEBUG ]  [ method:org.apache.http.impl.conn.LoggingManagedHttpClientConnection.shutdown(LoggingManagedHttpClientConnection.java:98) ]  http-outgoing-1: Shutdown connection
-2017-11-14 11:58:40  [ DEBUG ]  [ method:org.apache.http.impl.execchain.ConnectionHolder.abortConnection(ConnectionHolder.java:128) ]  Connection discarded
-2017-11-14 11:58:40  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:320) ]  Connection released: [id: 1][route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2017-11-14 11:58:40  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:388) ]  Connection manager is shutting down
-2017-11-14 11:58:40  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:394) ]  Connection manager shut down
-2017-11-14 11:58:41  [ DEBUG ]  [ method:com.dull.CDSpace.utils.httpClient.HttpClientUtil.post(HttpClientUtil.java:219) ]  http://lei.aetoscg.com/user/app-login.action?ln=0
-2017-11-14 11:58:41  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:122) ]  CookieSpec selected: default
-2017-11-14 11:58:41  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:76) ]  Auth cache not set in the context
-2017-11-14 11:58:41  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(PoolingHttpClientConnectionManager.java:249) ]  Connection request: [route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2017-11-14 11:58:41  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:282) ]  Connection leased: [id: 2][route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
-2017-11-14 11:58:41  [ DEBUG ]  [ method:org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:234) ]  Opening connection {}->http://lei.aetoscg.com:80
-2017-11-14 11:58:41  [ DEBUG ]  [ method:org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:131) ]  Connecting to lei.aetoscg.com/127.0.0.1:80
-2017-11-14 11:58:42  [ DEBUG ]  [ method:org.apache.http.impl.conn.LoggingManagedHttpClientConnection.shutdown(LoggingManagedHttpClientConnection.java:98) ]  http-outgoing-2: Shutdown connection
-2017-11-14 11:58:42  [ DEBUG ]  [ method:org.apache.http.impl.execchain.ConnectionHolder.abortConnection(ConnectionHolder.java:128) ]  Connection discarded
-2017-11-14 11:58:42  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:320) ]  Connection released: [id: 2][route: {}->http://lei.aetoscg.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2017-11-14 11:58:42  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:388) ]  Connection manager is shutting down
-2017-11-14 11:58:42  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:394) ]  Connection manager shut down
+2017-11-17 10:00:22  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
+2017-11-17 10:00:22  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
+2017-11-17 10:00:25  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
+2017-11-17 10:00:43  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject1\test.server
+2017-11-17 10:00:44  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:00:45  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
+2017-11-17 10:00:45  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject1
+2017-11-17 10:00:45  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:01:32  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
+2017-11-17 10:01:32  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
+2017-11-17 10:01:34  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
+2017-11-17 10:01:34  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject1
+2017-11-17 10:01:34  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:02:17  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
+2017-11-17 10:02:17  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
+2017-11-17 10:02:19  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
+2017-11-17 10:02:19  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject1
+2017-11-17 10:02:19  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:04:56  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
+2017-11-17 10:04:56  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
+2017-11-17 10:04:57  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
+2017-11-17 10:04:58  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject1
+2017-11-17 10:04:58  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:04:58  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
+2017-11-17 10:05:05  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject1\New HttpClient.client
+2017-11-17 10:05:05  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:05:05  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
+2017-11-17 10:05:05  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject1
+2017-11-17 10:05:05  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:05:43  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject1\New HttpClient.client
+2017-11-17 10:05:43  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:05:43  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
+2017-11-17 10:05:43  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject1
+2017-11-17 10:05:43  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:05:59  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
+2017-11-17 10:05:59  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
+2017-11-17 10:06:01  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
+2017-11-17 10:06:01  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject1
+2017-11-17 10:06:01  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:06:01  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
+2017-11-17 10:06:39  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject1\New HttpClient.client
+2017-11-17 10:06:39  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:06:40  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
+2017-11-17 10:06:40  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject1
+2017-11-17 10:07:11  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
+2017-11-17 10:07:11  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
+2017-11-17 10:07:12  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
+2017-11-17 10:07:12  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject1
+2017-11-17 10:07:12  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:07:13  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
+2017-11-17 10:07:20  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject1\New HttpClient.client
+2017-11-17 10:07:20  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:07:21  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
+2017-11-17 10:07:21  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject1
+2017-11-17 10:07:21  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:07:40  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject1\New HttpClient.client
+2017-11-17 10:07:40  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:07:41  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject1\test.server
+2017-11-17 10:07:41  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:07:41  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject1\test1.client
+2017-11-17 10:07:41  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:07:42  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject1\test120134.client
+2017-11-17 10:07:42  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:07:43  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject1\test1.client
+2017-11-17 10:07:43  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:08:00  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
+2017-11-17 10:08:00  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject1
+2017-11-17 10:08:00  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:08:04  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
+2017-11-17 10:08:04  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject1
+2017-11-17 10:08:04  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:08:06  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject1
+2017-11-17 10:08:07  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
+2017-11-17 10:08:07  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
+2017-11-17 10:08:09  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
+2017-11-17 10:08:10  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
+2017-11-17 10:08:10  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
+2017-11-17 10:08:10  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:08:12  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
+2017-11-17 10:08:12  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
+2017-11-17 10:08:12  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:08:16  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\test
+2017-11-17 10:08:16  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject\test
+2017-11-17 10:08:16  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:08:16  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\test
+2017-11-17 10:08:17  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
+2017-11-17 10:08:17  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\test
+2017-11-17 10:08:18  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
+2017-11-17 10:08:18  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
+2017-11-17 10:08:18  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:08:26  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\user
+2017-11-17 10:08:26  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject\user
+2017-11-17 10:08:26  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:08:26  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\user
+2017-11-17 10:08:26  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
+2017-11-17 10:08:26  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\test
+2017-11-17 10:08:26  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\user
+2017-11-17 10:08:31  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test16611274725.client
+2017-11-17 10:08:31  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:08:34  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test16611274725.client
+2017-11-17 10:08:34  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:08:35  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test16611274725.client
+2017-11-17 10:08:35  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:08:40  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test16611274725.client
+2017-11-17 10:08:40  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:08:41  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
+2017-11-17 10:08:41  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
+2017-11-17 10:08:41  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:08:41  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\New HttpClient.client
+2017-11-17 10:08:41  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:12:00  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\New HttpClient.client
+2017-11-17 10:12:00  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:12:01  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\test
+2017-11-17 10:12:01  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\user
+2017-11-17 10:12:01  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
+2017-11-17 10:12:01  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\test
+2017-11-17 10:12:01  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\user
+2017-11-17 10:12:02  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\user
+2017-11-17 10:12:02  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
+2017-11-17 10:12:02  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\test
+2017-11-17 10:12:02  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\user
+2017-11-17 10:12:03  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
+2017-11-17 10:12:03  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
+2017-11-17 10:12:03  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:12:03  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test\New HttpClient.client
+2017-11-17 10:12:03  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:12:05  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\test
+2017-11-17 10:12:05  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject\test
+2017-11-17 10:12:05  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:12:07  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
+2017-11-17 10:12:07  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
+2017-11-17 10:12:07  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:15:50  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test\test14545.server
+2017-11-17 10:15:50  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:15:53  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test\test166112.client
+2017-11-17 10:15:53  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:16:11  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test\New HttpClient.client
+2017-11-17 10:16:11  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:16:12  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test\test.server
+2017-11-17 10:16:12  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:16:13  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test\New HttpClient.client
+2017-11-17 10:16:13  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:16:14  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\test
+2017-11-17 10:16:14  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject\test
+2017-11-17 10:16:14  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:16:15  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
+2017-11-17 10:16:15  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
+2017-11-17 10:16:15  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:25:11  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\test
+2017-11-17 10:25:11  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject\test
+2017-11-17 10:25:11  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:25:12  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
+2017-11-17 10:25:12  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
+2017-11-17 10:25:12  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:25:14  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\test
+2017-11-17 10:25:14  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject\test
+2017-11-17 10:25:14  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:25:52  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test\New HttpClient.client
+2017-11-17 10:25:52  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:26:15  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test\test.server
+2017-11-17 10:26:15  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:26:32  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\test
+2017-11-17 10:26:32  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject\test
+2017-11-17 10:26:32  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:26:33  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
+2017-11-17 10:26:33  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
+2017-11-17 10:26:33  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:33:52  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\test
+2017-11-17 10:33:52  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject\test
+2017-11-17 10:33:52  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:33:53  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test\New HttpClient.client
+2017-11-17 10:33:53  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:33:54  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test\test.server
+2017-11-17 10:33:54  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:33:56  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test\test1.client
+2017-11-17 10:33:56  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:33:59  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
+2017-11-17 10:33:59  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
+2017-11-17 10:33:59  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:34:00  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\test
+2017-11-17 10:34:00  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject\test
+2017-11-17 10:34:00  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:34:01  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test\New HttpClient.client
+2017-11-17 10:34:01  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:34:02  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test\New HttpClient.client
+2017-11-17 10:34:02  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:34:02  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test\test.server
+2017-11-17 10:34:02  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:34:04  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test\test.server
+2017-11-17 10:34:04  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:34:06  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test\test1.client
+2017-11-17 10:34:06  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:34:08  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test\test.server
+2017-11-17 10:34:08  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:34:16  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test\test120134.client
+2017-11-17 10:34:16  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:34:24  [ DEBUG ]  [ method:com.dull.CDSpace.utils.httpClient.HttpClientUtil.get(HttpClientUtil.java:92) ]  http://10.0.40.228:8080/data-bank/api/v1/accounts/search?d=1458289367557&tenantId=u51.com&taskType=BANK&taskSubType=JIANGSU&loginTarget=0&loginType=1&111111
+2017-11-17 10:34:24  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:122) ]  CookieSpec selected: default
+2017-11-17 10:34:24  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:76) ]  Auth cache not set in the context
+2017-11-17 10:34:24  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(PoolingHttpClientConnectionManager.java:249) ]  Connection request: [route: {}->http://10.0.40.228:8080][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-11-17 10:34:24  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:282) ]  Connection leased: [id: 0][route: {}->http://10.0.40.228:8080][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-11-17 10:34:24  [ DEBUG ]  [ method:org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:234) ]  Opening connection {}->http://10.0.40.228:8080
+2017-11-17 10:34:24  [ DEBUG ]  [ method:org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:131) ]  Connecting to /10.0.40.228:8080
+2017-11-17 10:34:44  [ DEBUG ]  [ method:com.dull.CDSpace.utils.httpClient.HttpClientUtil.post(HttpClientUtil.java:219) ]  http://10.0.40.228:8080/data-bank/api/v1/accounts/search?d=1458289367557&tenantId=u51.com&taskType=BANK&taskSubType=JIANGSU&loginTarget=0&loginType=1
+2017-11-17 10:34:44  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:122) ]  CookieSpec selected: default
+2017-11-17 10:34:44  [ DEBUG ]  [ method:org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:76) ]  Auth cache not set in the context
+2017-11-17 10:34:44  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(PoolingHttpClientConnectionManager.java:249) ]  Connection request: [route: {}->http://10.0.40.228:8080][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-11-17 10:34:44  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:282) ]  Connection leased: [id: 1][route: {}->http://10.0.40.228:8080][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-11-17 10:34:44  [ DEBUG ]  [ method:org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:234) ]  Opening connection {}->http://10.0.40.228:8080
+2017-11-17 10:34:44  [ DEBUG ]  [ method:org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:131) ]  Connecting to /10.0.40.228:8080
+2017-11-17 10:34:45  [ DEBUG ]  [ method:org.apache.http.impl.conn.LoggingManagedHttpClientConnection.shutdown(LoggingManagedHttpClientConnection.java:98) ]  http-outgoing-0: Shutdown connection
+2017-11-17 10:34:45  [ DEBUG ]  [ method:org.apache.http.impl.execchain.ConnectionHolder.abortConnection(ConnectionHolder.java:128) ]  Connection discarded
+2017-11-17 10:34:45  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:320) ]  Connection released: [id: 0][route: {}->http://10.0.40.228:8080][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-11-17 10:34:45  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:388) ]  Connection manager is shutting down
+2017-11-17 10:34:45  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:394) ]  Connection manager shut down
+2017-11-17 10:35:05  [ DEBUG ]  [ method:org.apache.http.impl.conn.LoggingManagedHttpClientConnection.shutdown(LoggingManagedHttpClientConnection.java:98) ]  http-outgoing-1: Shutdown connection
+2017-11-17 10:35:05  [ DEBUG ]  [ method:org.apache.http.impl.execchain.ConnectionHolder.abortConnection(ConnectionHolder.java:128) ]  Connection discarded
+2017-11-17 10:35:05  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:320) ]  Connection released: [id: 1][route: {}->http://10.0.40.228:8080][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-11-17 10:35:05  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:388) ]  Connection manager is shutting down
+2017-11-17 10:35:05  [ DEBUG ]  [ method:org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:394) ]  Connection manager shut down
+2017-11-17 10:44:19  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\test
+2017-11-17 10:44:19  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject\test
+2017-11-17 10:44:19  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:44:19  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
+2017-11-17 10:44:19  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
+2017-11-17 10:44:19  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:44:24  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\test
+2017-11-17 10:44:24  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject\test
+2017-11-17 10:44:24  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:44:27  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\user
+2017-11-17 10:44:27  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject\user
+2017-11-17 10:44:27  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:44:28  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\user
+2017-11-17 10:44:28  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject\user
+2017-11-17 10:44:28  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:44:31  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\user
+2017-11-17 10:44:31  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject\user
+2017-11-17 10:44:31  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:44:31  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\user
+2017-11-17 10:44:31  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject\user
+2017-11-17 10:44:31  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:44:41  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\user
+2017-11-17 10:44:41  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject\user
+2017-11-17 10:44:41  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:44:41  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\user
+2017-11-17 10:44:44  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
+2017-11-17 10:44:44  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\test
+2017-11-17 10:44:44  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\empty
+2017-11-17 10:44:46  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\test
+2017-11-17 10:44:46  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject\test
+2017-11-17 10:44:46  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:44:47  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test\New HttpClient.client
+2017-11-17 10:44:47  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:44:47  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test\test.server
+2017-11-17 10:44:47  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:44:48  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test\test1.client
+2017-11-17 10:44:48  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:44:49  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test\test122655.client
+2017-11-17 10:44:49  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:44:50  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test\test14545.server
+2017-11-17 10:44:50  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:44:50  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test\test166112.client
+2017-11-17 10:44:50  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:44:57  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:76) ]  selected treeItem file path is .\project\TestProject\test\test16611223153.client
+2017-11-17 10:44:57  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:45:19  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject\test
+2017-11-17 10:45:19  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject\test
+2017-11-17 10:45:19  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
+2017-11-17 10:45:33  [ DEBUG ]  [ method:com.dull.CDSpace.model.NodeItem.toString(NodeItem.java:33) ]  set tree name .\project\TestProject
+2017-11-17 10:45:33  [ DEBUG ]  [ method:com.dull.CDSpace.view.BorderCenterView.setContent(BorderCenterView.java:97) ]  selected treeItem file path is .\project\TestProject
+2017-11-17 10:45:33  [ INFO ]  [ method:com.dull.CDSpace.view.BorderCenterView.loadTab(BorderCenterView.java:70) ]  tab's size is1
