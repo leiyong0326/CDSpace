@@ -98,7 +98,12 @@ public class HttpClientUtil {
 				Iterator<Entry<String, String>> iter = headers.entrySet().iterator();
 				while (iter.hasNext()) {
 					Map.Entry<String, String> entry = (Entry<String, String>) iter.next();
-					httpget.setHeader(entry.getKey(), entry.getValue());
+					Header[] cookieHeads = httpget.getHeaders("Cookie");
+					if (entry.getKey().equals("Cookie")&&cookieHeads!=null&&cookieHeads.length>0) {
+						httpget.setHeader("Cookie", cookieHeads[0].getValue()+entry.getValue());
+					}else{
+						httpget.setHeader(entry.getKey(), entry.getValue());
+					}
 				}
 			}
 			CloseableHttpResponse response = httpclient.execute(httpget);

@@ -15,6 +15,7 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.control.TreeItem;
 import javafx.scene.image.Image;
@@ -35,6 +36,7 @@ public class DirPreviewView {
 	
 	private TextField tfDirName;
 	private TextField tfUrl;
+	private TextArea remarkArea;
 	
 	public DirPreviewView() {
 		
@@ -57,15 +59,20 @@ public class DirPreviewView {
         grid.add(tfDirName, 1, 0);
         Label tfUrlLable = new Label("Url:");
         grid.add(tfUrlLable, 0, 1);
-        tfUrl = new TextField();//directory name
+        tfUrl = new TextField();//PARENT URL
         tfUrl.setMinWidth(360);
         grid.add(tfUrl, 1, 1);
-        
+        Label remarkLable = new Label("备注:");
+        grid.add(remarkLable, 0, 2);
+        remarkArea = new TextArea();//directory name
+        remarkArea.setMinWidth(360);
+        remarkArea.setMinHeight(50);
+        grid.add(remarkArea, 1, 2);
         Button saveButton = new Button("save");
         saveButton.setOnAction((ActionEvent e) -> {
         	saveButton();
         });
-        grid.add(saveButton, 0,2);
+        grid.add(saveButton, 0,3);
         
 		return vbox;
 	}
@@ -81,12 +88,21 @@ public class DirPreviewView {
 			} catch (IOException e) {
 			}
 		}
+		File remarkFile = new File(fileParentDirectoryPath + "/" + "remark");
+		if (remarkFile.isFile()) {
+			try {
+				String remark = FileUtils.readFileToString(remarkFile, StandardCharsets.UTF_8);
+		    	remarkArea.setText(remark);
+			} catch (IOException e) {
+			}
+		}
 	}
 	
 	public void saveButton() {
 		String oldName = treeItem.getValue().getFileName();
     	String newName = tfDirName.getText();
     	String newUrl = tfUrl.getText();
+    	String newRemark = remarkArea.getText();
     	String fileParentDirectoryPath = treeItem.getValue().getFile().getPath();
     	boolean isNewNameExist = false;
     	if (!oldName.equals(newName)) {
@@ -119,6 +135,14 @@ public class DirPreviewView {
 				e.printStackTrace();
 			}
 		}
+    	if (newRemark!=null&&!newRemark.isEmpty()) {
+    		File remarkFile = new File(new File(fileParentDirectoryPath), "remark");
+    		try {
+    			FileUtils.write(remarkFile, newRemark, StandardCharsets.UTF_8);
+    		} catch (IOException e) {
+    			e.printStackTrace();
+    		}
+    	}
 	}
 	
 	private void refreshTreeItem(TreeItem<NodeItem> item) {
