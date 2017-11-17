@@ -1,0 +1,9 @@
+##提供对shiro等框架支持,将服务端写入cookie进行缓存
+##项目配置url,当子请求没有配置http开头时,将自动依次从上级目录加到
+项目url为止,例如(只对client有效):
+项目url=http://127.0.0.1:8080/
+子目录user的url=user/
+user目录下接口login配置url=login.do?username=admin
+结果url为http://127.0.0.1:8080/user/login.do?username=admin
+##client中的requestbody允许换行,将会自动替换(正则\s)空格及换行符,
+且为get请求时,自动拼接追加到url后,需要使用空格时用&nbsp;
