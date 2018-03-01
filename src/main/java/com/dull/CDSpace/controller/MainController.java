@@ -1,5 +1,7 @@
 package com.dull.CDSpace.controller;
 
+import java.io.UnsupportedEncodingException;
+
 import com.dull.CDSpace.config.GlobalVariables;
 import com.dull.CDSpace.view.BorderCenterView;
 import com.dull.CDSpace.view.FileManagerView;
@@ -16,9 +18,10 @@ import javafx.stage.Stage;
  */
 public class MainController extends Application{
 	public static void main(String[] args) {
+//	        System.out.println("file.encoding:"+System.getProperty("file.encoding"));  
+//	        System.out.println("sun.jnu.encoding:"+System.getProperty("sun.jnu.encoding")); 
 		launch(MainController.class, args);
 	}
-	
 	@Override
 	public void start(Stage stage) {
 		BorderPane border = new BorderPane();

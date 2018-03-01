@@ -2,13 +2,13 @@ package com.dull.CDSpace.utils;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 
 /*
@@ -72,22 +72,23 @@ public class FileUtil {
 	public static String readFile(String filePath) {
 	    String content = null;
 	    File file = new File(filePath);
-	    FileReader reader = null;
+//	    FileReader reader = null;
 	    try {
-	        reader = new FileReader(file);
-	        char[] chars = new char[(int) file.length()];
-	        reader.read(chars);
-	        content = new String(chars);
-	        reader.close();
+//	        reader = new FileReader(file);
+//	        char[] chars = new char[(int) file.length()];
+//	        reader.read(chars);
+//	        content = new String(chars);
+//	        reader.close();
+	    	content = FileUtils.readFileToString(file, "UTF-8");
 	    } catch (IOException e) {
 	        e.printStackTrace();
 	    } finally {
-	        if(reader !=null){try {
-				reader.close();
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}}
+//	        if(reader !=null){try {
+//				reader.close();
+//			} catch (IOException e) {
+//				// TODO Auto-generated catch block
+//				e.printStackTrace();
+//			}}
 	    }
 	    return content;
 	}
