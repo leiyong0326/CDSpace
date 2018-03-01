@@ -74,8 +74,8 @@ public class FMContextMenuController {
         MenuItem menuItemOfTab = new MenuItem("Open in a new tab", new ImageView(tabIcon));
         menuItemOfCopy.setAccelerator(KeyCombination.keyCombination("Shortcut+C"));
         menuItemOfPaste.setAccelerator(KeyCombination.keyCombination("Shortcut+V"));
-        menuItemOfRefresh.setAccelerator(KeyCombination.keyCombination("Shortcut+R"));
-        menuItemOfRename.setAccelerator(KeyCombination.keyCombination("Shortcut+E"));
+        menuItemOfRefresh.setAccelerator(KeyCombination.keyCombination("F5"));
+        menuItemOfRename.setAccelerator(KeyCombination.keyCombination("F3"));
         
         getContextMenu().getItems().add(menu);
         getContextMenu().getItems().add(new SeparatorMenuItem());

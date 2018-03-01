@@ -22,7 +22,7 @@ public class MainController extends Application{
 	@Override
 	public void start(Stage stage) {
 		BorderPane border = new BorderPane();
-		String workspace = "./project";
+		String workspace = "./project";//D:/Tools/http请求
 		BorderCenterView borderCenterTabPaneView = new BorderCenterView();
 		FileManagerView fileManagerView = new FileManagerView(workspace, border, borderCenterTabPaneView);
 		MenuBarAndToolBarView toolBarView = new MenuBarAndToolBarView(fileManagerView);

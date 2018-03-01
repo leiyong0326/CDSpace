@@ -21,6 +21,7 @@ import com.dull.CDSpace.utils.httpClient.HttpClientUtil;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
@@ -34,6 +35,8 @@ import javafx.scene.control.TextField;
 import javafx.scene.control.TreeItem;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.control.cell.TextFieldTableCell;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
@@ -62,6 +65,7 @@ public class HttpClientEditorView {
 
 	private Thread httpThread;
 	private Runnable httpRunnable;
+	private boolean isCtrl = false;
 	
 	private Button sendButton;
 	public HttpClientEditorView() {
@@ -138,7 +142,34 @@ public class HttpClientEditorView {
 		VBox vbox = new VBox(10);
 		vbox.setPrefHeight(800);
 		vbox.setPrefWidth(1000);
-        
+		vbox.setOnKeyReleased(new EventHandler<KeyEvent>() {
+			@Override
+			public void handle(KeyEvent event) {
+				if (event.getCode()==KeyCode.CONTROL) {
+					isCtrl = false;
+				}
+				if (isCtrl) {
+					if (event.getCode() == KeyCode.R) {
+						sendButton();
+					}
+				}
+				System.out.println("released:"+event.getCode());
+			}
+		});
+		vbox.setOnKeyPressed(new EventHandler<KeyEvent>() {
+			@Override
+			public void handle(KeyEvent event) {
+				if (event.getCode()==KeyCode.CONTROL) {
+					isCtrl = true;
+				}
+			}
+		});
+		vbox.setOnKeyTyped(new EventHandler<KeyEvent>() {
+			@Override
+			public void handle(KeyEvent event) {
+				System.out.println("typed:"+event.getCode());
+			}
+		});
         TabPane tpOfRequest = new TabPane();
         Tab tabOfURL = new Tab();
         tabOfURL.setClosable(false);

@@ -1,16 +1,23 @@
 package com.dull.CDSpace.utils.httpClient;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 import java.util.Map.Entry;
 
+import org.apache.http.Consts;
 import org.apache.http.Header;
 import org.apache.http.HeaderElement;
 import org.apache.http.HttpEntity;
+import org.apache.http.NameValuePair;
 import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpDelete;
 import org.apache.http.client.methods.HttpGet;
@@ -20,6 +27,7 @@ import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.message.BasicHeader;
+import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
 import org.apache.log4j.Logger;
 
@@ -148,7 +156,7 @@ public class HttpClientUtil {
 					httpput.setHeader(entry.getKey(), entry.getValue());
 				}
 			}
-			httpput.setEntity(new StringEntity(params));
+			httpput.setEntity(new StringEntity(params,Consts.UTF_8));
 			CloseableHttpResponse response = httpclient.execute(httpput);
 			cacheHeader(response);
 			Date date = new Date();
@@ -234,8 +242,19 @@ public class HttpClientUtil {
 					httppost.setHeader(entry.getKey(), entry.getValue());
 				}
 			}
-			httppost.setEntity(new StringEntity(params));
+//			if (params!=null&&params.length()>0) {
+//				String[] paramArr = params.split("\\&");
+//				List<NameValuePair> nvps = new ArrayList<NameValuePair>();
+//				for (String param:paramArr) {
+//					int index = param.indexOf("=");
+//					nvps.add(new BasicNameValuePair(param.substring(0,index), param.substring(index+1)));
+//				}
+//				httppost.setEntity(new UrlEncodedFormEntity(nvps,Consts.UTF_8));
+//			}
+			httppost.setEntity(new StringEntity(params, Consts.UTF_8));
+
 			CloseableHttpResponse response = httpclient.execute(httppost);
+			response.setLocale(Locale.CHINESE);
 			cacheHeader(response);
 			Date date = new Date();
 			httpClientResponse.setStateCode(date + "\n" + "\n" + response.getStatusLine().toString());
