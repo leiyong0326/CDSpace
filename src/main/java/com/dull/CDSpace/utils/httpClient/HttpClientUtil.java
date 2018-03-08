@@ -7,11 +7,13 @@ import java.util.Iterator;
 import java.util.Locale;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Properties;
 
 import org.apache.http.Consts;
 import org.apache.http.Header;
 import org.apache.http.HeaderElement;
 import org.apache.http.HttpEntity;
+import org.apache.http.HttpHost;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpDelete;
@@ -26,6 +28,8 @@ import org.apache.http.util.EntityUtils;
 import org.apache.log4j.Logger;
 
 import com.dull.CDSpace.controller.FMContextMenuController;
+import com.dull.CDSpace.utils.ProxyUtil;
+import com.dull.CDSpace.utils.StringUtil;
 
 /*
  * Author 杜亮亮
@@ -87,7 +91,19 @@ public class HttpClientUtil {
 	}
 
 	private void init() {
-		httpclient = HttpClientBuilder.create().build();
+		Properties config = ProxyUtil.getProperties();
+		HttpHost proxy = null;
+		if (config!=null) {
+			String ip = config.getProperty("ip");
+			String port = config.getProperty("port");
+			String enable = config.getProperty("enable");
+			if (StringUtil.isBoolean(enable)&&Boolean.valueOf(enable)) {
+				if (StringUtil.isIp(ip)&&StringUtil.isPort(port)) {
+					proxy = new HttpHost(ip, Integer.valueOf(port));
+				}
+			}
+		}
+		httpclient = HttpClientBuilder.create().setProxy(proxy).build();
 	}
 
 	private HttpClientResponse get(String url, HashMap<String, String> headers) {
