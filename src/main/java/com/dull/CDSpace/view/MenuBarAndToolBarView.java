@@ -1,10 +1,19 @@
 package com.dull.CDSpace.view;
 
+import java.io.BufferedInputStream;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Properties;
+
+import javax.swing.JOptionPane;
+
 import com.dull.CDSpace.config.GlobalVariables;
 import com.dull.CDSpace.controller.FMContextMenuController;
 import com.dull.CDSpace.model.NodeItem;
 import com.dull.CDSpace.model.TreeItemAndTab;
 import com.dull.CDSpace.utils.FileUtil;
+import com.dull.CDSpace.utils.ProxyUtil;
 
 import javafx.event.ActionEvent;
 import javafx.scene.control.Alert;
@@ -124,6 +133,9 @@ public class MenuBarAndToolBarView {
 	    MenuItem menuItemOfSend = new MenuItem("Send", new ImageView(sendIcon));
 	    MenuItem menuItemOfStart = new MenuItem("Start", new ImageView(startIcon));
 	    MenuItem menuItemOfStop = new MenuItem("Stop", new ImageView(stopIcon));
+		Menu menuProxy = new Menu("Proxy");
+//	    MenuItem proxyStart = new MenuItem("启用", new ImageView(startIcon));
+	    MenuItem proxyConfig = new MenuItem("配置代理", new ImageView(renameIcon));
 	    Menu menuHelp = new Menu("Help");
 	    MenuItem miAboutCDSpace = new MenuItem("About CDSpace");
 	    MenuItem miAboutMe = new MenuItem("About Author");
@@ -134,7 +146,8 @@ public class MenuBarAndToolBarView {
 		menuEdit.getItems().addAll(menuItemOfCopy, menuItemOfPaste, menuItemOfRename, menuItemOfRefresh, menuItemOfDelete);
 		menuRun.getItems().addAll(menuItemOfTab, menuItemOfSend, menuItemOfStart, menuItemOfStop);
 		menuHelp.getItems().addAll(miAboutCDSpace, miAboutMe);
-		menuBar.getMenus().addAll(menuFile, menuEdit, menuRun, menuHelp);
+		menuProxy.getItems().addAll(proxyConfig);
+		menuBar.getMenus().addAll(menuFile, menuEdit, menuRun, menuProxy,menuHelp);
 		//File Menu
 		menuItemOfAddClient.setOnAction((ActionEvent t) -> {menuController.addClient();});
 		menuItemOfAddServer.setOnAction((ActionEvent t) -> {menuController.addServer();});
@@ -153,6 +166,8 @@ public class MenuBarAndToolBarView {
 		menuItemOfSend.setOnAction((ActionEvent t) -> {btnAction(2);});
 		menuItemOfStart.setOnAction((ActionEvent t) -> {btnAction(3);});
 		menuItemOfStop.setOnAction((ActionEvent t) -> {btnAction(4);});
+		//Proxy Menu
+		proxyConfig.setOnAction((t)->{proxyConfig();});
 		//Help Menu
 		miAboutCDSpace.setOnAction((ActionEvent t) -> {aboutCDSpace();});
 		miAboutMe.setOnAction((ActionEvent t) -> {aboutMe();});
@@ -204,7 +219,10 @@ public class MenuBarAndToolBarView {
 			getBorderCenterTabPaneView().loadTab(treeItem, 2);
 		}
 	}
-	
+	private void proxyConfig(){
+		String inputValue = JOptionPane.showInputDialog("请输入代理,格式(ip:port:启用),如127.0.0.1:8888:true",ProxyUtil.getProxy()); 
+		ProxyUtil.writeProxy(inputValue);
+	}
 	private void aboutCDSpace() {
 		Alert alert = new Alert(AlertType.INFORMATION);
 		alert.setTitle("Information Dialog");
