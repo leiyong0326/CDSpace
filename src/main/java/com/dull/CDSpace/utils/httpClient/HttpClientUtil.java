@@ -1,6 +1,11 @@
 package com.dull.CDSpace.utils.httpClient;
 
 import java.io.IOException;
+import java.security.KeyManagementException;
+import java.security.KeyStoreException;
+import java.security.NoSuchAlgorithmException;
+import java.security.cert.CertificateException;
+import java.security.cert.X509Certificate;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -8,6 +13,8 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Properties;
+
+import javax.net.ssl.SSLContext;
 
 import org.apache.http.Consts;
 import org.apache.http.Header;
@@ -20,10 +27,13 @@ import org.apache.http.client.methods.HttpDelete;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.client.methods.HttpPut;
+import org.apache.http.conn.ssl.SSLConnectionSocketFactory;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.message.BasicHeader;
+import org.apache.http.ssl.SSLContextBuilder;
+import org.apache.http.ssl.TrustStrategy;
 import org.apache.http.util.EntityUtils;
 import org.apache.log4j.Logger;
 
@@ -39,7 +49,27 @@ public class HttpClientUtil {
 	private static Logger logger = Logger.getLogger(FMContextMenuController.class);
 	private CloseableHttpClient httpclient;
 	public static Map<String, String> cookies = new HashMap<>();
-
+	private static SSLConnectionSocketFactory sslsf= null;
+	private SSLConnectionSocketFactory getSSLConnectionSocketFactory(){
+		if (sslsf!=null) {
+			return sslsf;
+		}
+		try {
+			SSLContext sslContext = new SSLContextBuilder().loadTrustMaterial(
+			        null,new TrustStrategy() {
+			            //信任所有
+			            public boolean isTrusted(X509Certificate[] chain, String authType)
+			                    throws CertificateException {
+			                return true;
+			            }
+			        }).build();
+	        sslsf=new SSLConnectionSocketFactory(sslContext);
+	        return sslsf;
+		} catch (KeyManagementException | NoSuchAlgorithmException | KeyStoreException e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
 	public Header getHeader() {
 		StringBuffer cookieString = new StringBuffer();
 		cookies.forEach((k, v) -> {
@@ -93,6 +123,9 @@ public class HttpClientUtil {
 	private void init() {
 		Properties config = ProxyUtil.getProperties();
 		HttpHost proxy = null;
+//		AuthScope authScope = null;
+//		CredentialsProvider credentialsProvider = null;
+		
 		if (config!=null) {
 			String ip = config.getProperty("ip");
 			String port = config.getProperty("port");
@@ -100,10 +133,14 @@ public class HttpClientUtil {
 			if (StringUtil.isBoolean(enable)&&Boolean.valueOf(enable)) {
 				if (StringUtil.isIp(ip)&&StringUtil.isPort(port)) {
 					proxy = new HttpHost(ip, Integer.valueOf(port));
+//					credentialsProvider = new BasicCredentialsProvider();
+//					authScope = new AuthScope(ip, Integer.valueOf(port));
+//					credentialsProvider.setCredentials(authScope,new UsernamePasswordCredentials("username", "password"));
 				}
 			}
 		}
-		httpclient = HttpClientBuilder.create().setProxy(proxy).build();
+		httpclient = HttpClientBuilder.create().setProxy(proxy).setSSLSocketFactory(getSSLConnectionSocketFactory()).build();
+		
 	}
 
 	private HttpClientResponse get(String url, HashMap<String, String> headers) {
