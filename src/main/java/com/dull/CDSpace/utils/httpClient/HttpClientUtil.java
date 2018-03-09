@@ -13,7 +13,6 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Properties;
-
 import javax.net.ssl.SSLContext;
 
 import org.apache.http.Consts;
@@ -140,7 +139,6 @@ public class HttpClientUtil {
 			}
 		}
 		httpclient = HttpClientBuilder.create().setProxy(proxy).setSSLSocketFactory(getSSLConnectionSocketFactory()).build();
-		
 	}
 
 	private HttpClientResponse get(String url, HashMap<String, String> headers) {
